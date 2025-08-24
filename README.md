@@ -2,27 +2,27 @@
 
 Este es mi proyecto backend personal de Spring Boot.
 
---
+---
 
-##Backend
+# Backend
 
 Es una red social, pero desde el backend.
 
---
+---
 
 🚧 Precaución: Proyecto en desarrollo. No usar en producción. 🚧
 
-# Proyecto creado por un autodidacta. Este proyecto puede tener errores de código, código difícil de mantener y ser vulnerable a ataques de hackers maliciosos.
+ Proyecto creado por un autodidacta. Este proyecto puede tener errores de código, código difícil de mantener y ser vulnerable a ataques de hackers maliciosos.
 
 ---
 
-# MyInLinkProject
+# My Project InLink
 
 This is my personal Spring Boot backend project.
 
 ---
 
-## Backend
+# Backend
 
  It is a social network but from the backend.
 
@@ -30,7 +30,7 @@ This is my personal Spring Boot backend project.
 
 🚧 Caution: Project under development. Do not use in production. 🚧
 
-# Project created by a self-taught person, this project may have code errors, unmaintainable code, this project may be vulnerable to malicious hacking attacks.
+ Project created by a self-taught person, this project may have code errors, unmaintainable code, this project may be vulnerable to malicious hacking attacks.
 
 
 
