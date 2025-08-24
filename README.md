@@ -1,14 +1,11 @@
 # Mi Projecto InLink
 
-Este es mi proyecto backend personal de Spring Boot.
-
---
+ Este es mi proyecto backend personal de Spring Boot.
 
 # Backend
 
-Es una red social, pero desde el backend.
+ Es una red social, pero desde el backend.
 
---
 
 🚧 Precaución: Proyecto en desarrollo. No usar en producción. 🚧
 
