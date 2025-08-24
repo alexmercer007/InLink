@@ -7,6 +7,7 @@
  Es una red social, pero desde el backend.
 
 
+#
 🚧 Precaución: Proyecto en desarrollo. No usar en producción. 🚧
 
  Proyecto creado por un autodidacta. Este proyecto puede tener errores de código, código difícil de mantener y ser vulnerable a ataques de hackers maliciosos.
