@@ -1,0 +1,78 @@
+plugins {
+    id 'application'
+    id 'org.springframework.boot' version '3.3.0'
+    id 'io.spring.dependency-management' version '1.1.4'
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    
+    implementation 'org.springframework.boot:spring-boot-starter'
+    
+    // Spring Boot core
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    
+    // Para red social muy util
+    implementation 'org.springframework.boot:spring-boot-starter-websocket'
+    
+    // Thymeleaf (para vistas en HTML)
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    
+    // Spring Security (autenticación, login, roles)
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    
+    // Spring Data JPA + Hibernate
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    // BCrypt para hashing de contraseñas
+    implementation 'org.springframework.security:spring-security-crypto'
+
+    // Conector de base de datos MySQL
+    runtimeOnly 'com.mysql:mysql-connector-j'
+
+    // DevTools (opcional pero útil para reinicio automático en desarrollo)
+    implementation 'org.springframework.boot:spring-boot-devtools'
+
+    // Validación (por ejemplo, para @Valid en formularios)
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+    // Jackson (ya incluido en web, pero puedes usarlo explícitamente si quieres JSON más potente)
+    implementation 'com.fasterxml.jackson.core:jackson-databind'
+    
+    // Dependencia para trabajar con nombres de archivos, extensiones y rutas de forma segura
+    implementation("commons-io:commons-io:2.11.0")
+    
+    implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
+    runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.11.5'
+    runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.11.5' // para soporte con Jackson
+    
+    // Test
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation libs.junit.jupiter
+
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    implementation libs.guava
+}
+
+test {
+    useJUnitPlatform()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+application {
+    mainClass = 'com.red.InLink.App'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
