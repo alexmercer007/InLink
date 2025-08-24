@@ -1,45 +1,41 @@
-# Mi Projecto InLink
+# Mi Proyecto InLink
 
- Este es mi proyecto backend personal de Spring Boot.
+Este es mi proyecto backend personal de **Spring Boot**.
 
-# Backend
+---
 
- Es una red social, pero desde el backend.
+## Backend
+Es una red social enfocada en la lógica y la gestión de datos desde el backend.
 
+---
 
+🚧 **Precaución:** Proyecto en desarrollo. No usar en producción.  
+Este proyecto es experimental y puede contener errores o código difícil de mantener.
 
-#
-🚧 Precaución: Proyecto en desarrollo. No usar en producción. 🚧
+---
 
- Proyecto creado por un autodidacta. Este proyecto puede tener errores de código, código difícil de mantener y ser vulnerable a ataques de hackers maliciosos.
+### About Me
+Proyecto creado por un desarrollador autodidacta.
 
+---
 
-
-
-#
 # My Project InLink
 
-This is my personal Spring Boot backend project.
+This is my personal **Spring Boot** backend project.
 
+---
 
-#
-# Backend
+## Backend
+It is a social network focused on backend logic and data management.
 
- It is a social network but from the backend.
+---
 
+🚧 **Caution:** Project under development. Do not use in production.  
+This project is experimental and may contain errors or hard-to-maintain code.
 
+---
 
-#
-🚧 Caution: Project under development. Do not use in production. 🚧
-
- Project created by a self-taught person, this project may have code errors, unmaintainable code, this project may be vulnerable to malicious hacking attacks.
-
-
-
-
-
-
-
-
+### About Me
+Project created by a self-taught developer.
 
 
